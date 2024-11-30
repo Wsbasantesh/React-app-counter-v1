@@ -1,9 +1,10 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import './index.css';
 import BasicTypes from './typescript/BasicTypes'
 import ObjectLiterals from './typescript/ObjectLiterals'
+import BasicFuntions from './typescript/BasicFuntions'
+import Counter from './components/Counter'
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
       <div className='flex flex-col justify-center items-center h-svh'>
         <BasicTypes/>
         <ObjectLiterals/>
+        <BasicFuntions/>
+        <Counter/>
       </div>
     </>
   )
