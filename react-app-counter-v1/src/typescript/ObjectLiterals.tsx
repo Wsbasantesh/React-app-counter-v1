@@ -13,7 +13,7 @@ export default function ObjectLiterals() {
         firstName: 'Wilians',
         lastName: 'Basantes',
         address: {
-            country: 'Ecuador',
+            country: 'Ecuador.',
             houseNo:6
         }
     }
